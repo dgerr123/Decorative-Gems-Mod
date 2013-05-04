@@ -29,9 +29,7 @@ public class GemBlock extends Block {
     @SideOnly(Side.CLIENT)
     public void registerIcons(IconRegister iconRegister) {
         for (int i = 0; i < 16; i++) {
-            if (i == Color.BLUE) {
-                blockIcons[i] = null;
-            } else {
+            if (i != Color.BLUE) {
                 blockIcons[i] = TextureHelper.getIconFromTextureName(iconRegister, "GemBlock_" + Color.getColorFromMetadata(i).replaceAll(" ", ""));
             }
         }

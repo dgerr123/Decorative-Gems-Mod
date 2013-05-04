@@ -31,9 +31,7 @@ public class GemOre extends Block {
     @SideOnly(Side.CLIENT)
     public void registerIcons(IconRegister iconRegister) {
         for (int i = 0; i < 16; i++) {
-            if (i == Color.BLUE) {
-                blockIcons[i] = null;
-            } else {
+            if (i != Color.BLUE) {
                 blockIcons[i] = TextureHelper.getIconFromTextureName(iconRegister, "GemOre_" + Color.getColorFromMetadata(i).replaceAll(" ", ""));
             }
         }
@@ -75,11 +73,7 @@ public class GemOre extends Block {
     public int quantityDroppedWithBonus(int fortuneLvl, Random random) {
         if (fortuneLvl > 0 && this.blockID != this.idDropped(0, random, fortuneLvl)) {
             int fortune = random.nextInt(fortuneLvl + 2) - 1;
-
-            if (fortune < 0) {
-                fortune = 0;
-            }
-
+            if (fortune < 0) fortune = 0;
             return this.quantityDropped(random) * (fortune + 1);
         } else {
             return this.quantityDropped(random);
