@@ -20,6 +20,7 @@ public class GemBlock extends Block {
     public GemBlock(int blockID) {
         super(blockID, Material.iron);
         this.setHardness(5.0F);
+        this.setResistance(2000.0F);
         this.setUnlocalizedName("gemBlock");
         this.setStepSound(soundMetalFootstep);
         this.setCreativeTab(CreativeTabs.tabBlock);
