@@ -15,4 +15,10 @@ public class Reference {
     public static final int ID_GEMBLOCK = 1100;
     public static final int ID_GEMORE = 1101;
     public static final int ID_GEMITEM = 1100;
+
+    /* Naming Constants */
+    public static final String[] UNLOCALIZED_COLORS = new String[] { "white", "orange", "magenta", "lightBlue", "yellow", "lightGreen", "pink", "darkGrey", "lightGrey", "cyan", "purple", "blue",
+            "brown", "green", "red", "black" };
+    public static final String[] LOCALIZED_COLORS = new String[] { "Snow Quartz", "Citrine", "Amethyst", "Larimar", "Yellow Topaz", "Peridot", "Kunzite", "Gray Agate", "Light Gray", "Turquoise",
+            "Sugilite", "-", "Smokey Quartz", "Tsavorite", "Carnelian", "Jet" };
 }

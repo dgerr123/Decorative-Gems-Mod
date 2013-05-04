@@ -11,11 +11,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class BlockHelper {
-
-    // Names of all the blocks, in the same order as registered lower in the class
-    private static final String[] blockNames = new String[] { "Snow Quartz", "Citrine", "Amethyst", "Larimar", "Yellow Topaz", "Peridot", "Kunzite", "Gray Agate", "Light Gray", "Turquoise",
-            "Sugilite", "-", "Smokey Quartz", "Tsavorite", "Carnelian", "Jet" };
-
     /*
      * Registering all the different blocks Use ReferenceID.BLOCKNAME for the ID
      */
@@ -34,13 +29,13 @@ public class BlockHelper {
         MinecraftForge.setBlockHarvestLevel(gemOre, "pickaxe", 2);
 
         // Add all blocks to the LangRegister
-        for (int i = 0; i < blockNames.length; i++) {
+        for (int i = 0; i < Reference.LOCALIZED_COLORS.length; i++) {
             if (i != Color.BLUE) {
                 ItemStack gemBlockItemStack = new ItemStack(gemBlock, 1, i);
-                LanguageRegistry.addName(gemBlockItemStack, blockNames[i] + " Block");
+                LanguageRegistry.addName(gemBlockItemStack, Reference.LOCALIZED_COLORS[i] + " Block");
 
                 ItemStack gemOreItemStack = new ItemStack(gemOre, 1, i);
-                LanguageRegistry.addName(gemOreItemStack, blockNames[i] + " Ore");
+                LanguageRegistry.addName(gemOreItemStack, Reference.LOCALIZED_COLORS[i] + " Ore");
             }
         }
     }
