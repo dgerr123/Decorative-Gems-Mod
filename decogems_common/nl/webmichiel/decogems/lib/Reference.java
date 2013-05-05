@@ -4,7 +4,7 @@ public class Reference {
     /* Basic constants */
     public static final String MOD_ID = "decogems";
     public static final String MOD_NAME = "Decorative Gems Mod";
-    public static final String VERSION = "Alpha (BUILD 1)";
+    public static final String VERSION = "Alpha-BUILD 4";
 
     /* Filepath Related Constants */
     public static final String RESOURCE_FOLDER = MOD_ID;

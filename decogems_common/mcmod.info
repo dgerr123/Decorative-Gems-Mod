@@ -1,0 +1,20 @@
+[
+{
+  "modid": "decogems",
+  "name": "Decorative Gems Mod",
+  "description": "Decorative gems for all your colorfull needs",
+  "version": "Alpha-BUILD 4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Msvisser"
+  ],
+  "credits": "Thanks Kilyle for the idea of the mod.",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
