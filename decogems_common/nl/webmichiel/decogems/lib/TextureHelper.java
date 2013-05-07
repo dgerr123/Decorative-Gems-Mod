@@ -7,7 +7,7 @@ import net.minecraft.util.Icon;
  * Decorative-Gems-Mod
  * Class that makes getting textures a little bit easier.
  * 
- * @author Msvisser.
+ * @author Msvisser
  * Copyright (c) 2013
  */
 public class TextureHelper {

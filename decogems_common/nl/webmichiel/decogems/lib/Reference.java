@@ -1,7 +1,8 @@
 package nl.webmichiel.decogems.lib;
 
 /**
- * Decorative-Gems-Mod All Mod related constants.
+ * Decorative-Gems-Mod
+ * All Mod related constants.
  * 
  * @author Msvisser
  * Copyright (c) 2013

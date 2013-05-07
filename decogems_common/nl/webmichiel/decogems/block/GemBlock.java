@@ -64,6 +64,4 @@ public class GemBlock extends Block {
         return metadata;
     }
 
-    
-    
 }

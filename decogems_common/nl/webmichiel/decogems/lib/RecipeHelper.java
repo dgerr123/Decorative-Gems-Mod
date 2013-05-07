@@ -1,7 +1,7 @@
 package nl.webmichiel.decogems.lib;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * Decorative-Gems-Mod

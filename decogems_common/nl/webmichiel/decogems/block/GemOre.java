@@ -74,16 +74,17 @@ public class GemOre extends Block {
     public int quantityDropped(Random random) {
         return 4 + random.nextInt(3);
     }
-    
+
     @Override
     public int quantityDroppedWithBonus(int fortuneLvl, Random random) {
-        if (fortuneLvl > 0 && this.blockID != this.idDropped(0, random, fortuneLvl)) {
+        if (fortuneLvl > 0 && blockID != this.idDropped(0, random, fortuneLvl)) {
             int fortune = random.nextInt(fortuneLvl + 2) - 1;
-            if (fortune < 0) fortune = 0;
+            if (fortune < 0) {
+                fortune = 0;
+            }
             return this.quantityDropped(random) * (fortune + 1);
-        } else {
+        } else
             return this.quantityDropped(random);
-        }
     }
 
 }
