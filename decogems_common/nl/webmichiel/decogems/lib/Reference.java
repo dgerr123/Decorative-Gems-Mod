@@ -1,15 +1,14 @@
 package nl.webmichiel.decogems.lib;
 
 /**
- * Decorative-Gems-Mod
- * All Mod related constants.
+ * Decorative-Gems-Mod All Mod related constants.
  * 
  * @author Msvisser
  * Copyright (c) 2013
  */
 public class Reference {
     /* Basic constants */
-    public static final String MOD_ID = "decogems";
+    public static final String MOD_ID = "DecorativeGems";
     public static final String MOD_NAME = "Decorative Gems Mod";
     public static final String VERSION = "Alpha-BUILD 4";
 
