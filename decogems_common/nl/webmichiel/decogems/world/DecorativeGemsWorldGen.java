@@ -7,6 +7,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import nl.webmichiel.decogems.lib.BlockHelper;
+import nl.webmichiel.decogems.lib.Color;
 
 import cpw.mods.fml.common.IWorldGenerator;
 
@@ -30,8 +31,11 @@ public class DecorativeGemsWorldGen implements IWorldGenerator {
             int randPosX = chunkX + rand.nextInt(16);
             int randPosY = 2 + rand.nextInt(28);
             int randPosZ = chunkZ + rand.nextInt(16);
+            int oreMetadata = rand.nextInt(16);
+            while (oreMetadata == Color.BLUE)
+                oreMetadata = rand.nextInt(16);
 
-            (new WorldGenMinable(BlockHelper.gemOre.blockID, rand.nextInt(16), 6 + rand.nextInt(5) , Block.stone.blockID)).generate(world, rand, randPosX, randPosY, randPosZ);
+            (new WorldGenMinable(BlockHelper.gemOre.blockID, oreMetadata, 6 + rand.nextInt(5) , Block.stone.blockID)).generate(world, rand, randPosX, randPosY, randPosZ);
         }
     }
 }
