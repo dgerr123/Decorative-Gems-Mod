@@ -10,6 +10,13 @@ import nl.webmichiel.decogems.item.GemOreItem;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
+/**
+ * Decorative-Gems-Mod
+ * Class that registers all blocks into the game and adds the names for the blocks.
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class BlockHelper {
     /*
      * Registering all the different blocks Use ReferenceID.BLOCKNAME for the ID

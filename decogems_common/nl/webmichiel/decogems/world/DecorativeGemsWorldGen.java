@@ -11,6 +11,13 @@ import nl.webmichiel.decogems.lib.Color;
 
 import cpw.mods.fml.common.IWorldGenerator;
 
+/**
+ * Decorative-Gems-Mod
+ * WorldGenerator class will generate the ores into the world.
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class DecorativeGemsWorldGen implements IWorldGenerator {
 
     @Override

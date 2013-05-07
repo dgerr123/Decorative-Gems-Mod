@@ -5,6 +5,12 @@ import net.minecraft.item.ItemStack;
 import nl.webmichiel.decogems.lib.Color;
 import nl.webmichiel.decogems.lib.Reference;
 
+/**
+ * Decorative-Gems-Mod
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class GemBlockItem extends ItemBlock {
 
     public GemBlockItem(int id) {

@@ -1,5 +1,12 @@
 package nl.webmichiel.decogems.lib;
 
+/**
+ * Decorative-Gems-Mod
+ * All Mod related constants.
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class Reference {
     /* Basic constants */
     public static final String MOD_ID = "decogems";

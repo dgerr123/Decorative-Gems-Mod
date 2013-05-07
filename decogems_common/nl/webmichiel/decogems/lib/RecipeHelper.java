@@ -3,6 +3,13 @@ package nl.webmichiel.decogems.lib;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
 
+/**
+ * Decorative-Gems-Mod
+ * Class that registers all recipes.
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class RecipeHelper {
 
     public static void init() {

@@ -5,6 +5,13 @@ import net.minecraft.item.ItemStack;
 import nl.webmichiel.decogems.item.GemItem;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
+/**
+ * Decorative-Gems-Mod
+ * Class that registers all items into the game and adds the names for the items.
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class ItemHelper {
     /*
      * Registering all the different blocks Use ReferenceID.BLOCKNAME for the ID

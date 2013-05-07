@@ -12,6 +12,12 @@ import nl.webmichiel.decogems.lib.TextureHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
+/**
+ * Decorative-Gems-Mod
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class GemItem extends Item {
 
     private Icon[] itemIcons = new Icon[16];

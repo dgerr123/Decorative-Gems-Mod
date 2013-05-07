@@ -14,6 +14,13 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
+/**
+ * Decorative-Gems-Mod
+ * Decorative gems mod main class, initializing all needed parts of the mod.
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
 public class DecorativeGems {
 

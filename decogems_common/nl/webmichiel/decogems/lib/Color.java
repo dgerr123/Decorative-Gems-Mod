@@ -1,5 +1,12 @@
 package nl.webmichiel.decogems.lib;
 
+/**
+ * Decorative-Gems-Mod
+ * Class with Minecraft Color constants based on the metadata
+ * 
+ * @author Msvisser
+ * Copyright (c) 2013
+ */
 public class Color {
 
     /* All color metadata constants */
